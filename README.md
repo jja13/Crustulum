@@ -67,6 +67,8 @@ A variety of actions are also available. These are once off actions and have no 
   * Locks all the seeds for the Garden except for the starting seed.
 * **Remove Cheat Achievement**
   * Remove 'Cheated cookies taste awful' achievement in case you got it before using this add-on.
+* **Give Lump Stonks**
+  * Gives a lump Stonk worth 10 Lumps.
 
 ## How To Use
 To use the add-on simply run the following in the developer console:
@@ -75,7 +77,9 @@ To use the add-on simply run the following in the developer console:
 ```
 Or you can use this bookmarklet:
 ```javascript
-javascript:(function () {Game.LoadMod('https://jja13.github.io/Crustulum.js')}());
+javascript: (function () {
+	Game.LoadMod('https://cdn.jsdelivr.net/gh/jja13/Crustulum@master/Crustulum.js');
+}());
 ```
 
 Note: jsDelivr is a third party service. Use at your own risk.
