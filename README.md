@@ -75,7 +75,7 @@ To use the add-on simply run the following in the developer console:
 ```
 Or you can use this bookmarklet:
 ```javascript
-javascript:(function () {Game.LoadMod('https://cdn.jsdelivr.net/gh/Ancyker/Crustulum/Crustulum.js')}());
+javascript:(function () {Game.LoadMod('https://jja13.github.io/Crustulum.js')}());
 ```
 
 Note: jsDelivr is a third party service. Use at your own risk.
