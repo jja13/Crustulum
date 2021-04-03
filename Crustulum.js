@@ -81,7 +81,7 @@ var Crustulum = {
             }
         },
         giveSugarLump: ()=>{
-            Game.gainLumps(1);
+            Game.gainLumps(10);
         },
         giveCookies: ()=>{
             Game.cookies = Game.cookiesEarned;
