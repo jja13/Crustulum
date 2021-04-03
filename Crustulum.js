@@ -43,7 +43,8 @@ var Crustulum = {
                 fragment.appendChild(Crustulum.Menu.actionButton('unlockAllWeedFungusSeeds','Unlock Weed and Fungi Seeds','Unlocks all the weed and fungus seeds for the Garden.', Crustulum.Actions.unlockAllWeedFungusSeeds));
                 fragment.appendChild(Crustulum.Menu.actionButton('lockAllSeeds','Lock All Seeds','Locks all the seeds for the Garden except for the starting seed.', Crustulum.Actions.lockAllSeeds));
                 fragment.appendChild(Crustulum.Menu.subheading('Misc'));
-                fragment.appendChild(Crustulum.Menu.actionButton('removeCheatedCookies','Remove Cheat Achievement','Remove \'Cheated cookies taste awful\' achievement', Crustulum.Actions.));
+                fragment.appendChild(Crustulum.Menu.actionButton('removeCheatedCookies','Remove Cheat Achievement','Remove \'Cheated cookies taste awful\' achievement', Crustulum.Actions.removeCheatedCookies));
+
                 // Unload Crustulum button. Doesn't work if you loaded other add-ons first. We check only for Cookie Monster.
                 if (typeof CM === 'undefined' || Crustulum.cookieMonsterLoaded) fragment.appendChild(Crustulum.Menu.actionButton('unloadCrustulum','Unload Crustulum','Unloads Crustulum and disabled all of it\'s features.', Crustulum.Actions.unloadCrustulum));
 
